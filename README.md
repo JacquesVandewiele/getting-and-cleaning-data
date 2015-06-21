@@ -23,18 +23,16 @@ run_analysis.R script requires the following preparation :
   - 1.3. read activity (trian & test)
   - 1.4. add labels read activity (trian & test)
   
-  - 2. Extracts only the measurements on the mean and standard deviation 
-     for each measurement. 
+  - 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 
   - 3. Uses descriptive activity names to name the activities in the data set
   - 3.1. descriptive names taken from file activity_labels
-        
+ 
   - 4. Appropriately labels the data set with descriptive variable names. 
   - 4.1. labeling has been done in a previous step by adding the content of the file features as labels
-        
-  - 5. From the data set in step 4, creates a second, independent tidy data set 
-    with the average of each variable for each activity and each subject.
+ 
+  - 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   - 5.1. create the requested info -> result dataframe
   - 5.2. create the independent tidy data set 
-        
+ 
   
