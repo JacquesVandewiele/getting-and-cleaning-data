@@ -14,7 +14,7 @@ run_analysis.R script requires the following preparation :
   - library(dplyr)
 
 - run_analysis() executes the script 
-- the result can be found in the set working directory
+- the result can be found in the working directory
 
 - five steps are executed
   - Merges the training and the test sets to create one data set.
