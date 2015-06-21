@@ -21,7 +21,11 @@ The final result contains the average
 per volunteer, per activity 
 for the mean and standard deviation for each measurement contained within the initial measurement files
 
-
+The columns in the file result are :
+- subject : number indicating the volunteer
+- activity : label of the executed activity (one of the possible six)
+- all mean and std variables from the original measurement files. An overview of these colmumns, principles and units used can be found
+  in the features_info.txt file which is part of the before mentioned ZIP file.
 
 
 
