@@ -4,14 +4,14 @@ run_analysis.R script requires the following preparation :
 - download the zipfile required for this course project :
   - zipfile <- tempfile()
   - zipurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  download.file(url = zipurl, destfile = zipfile, quiet = TRUE)
-  zipdir <- getwd()
-  unzip(zipfile, exdir = zipdir) # files="" so extract all
-  files <- list.files(zipdir)
+  - download.file(url = zipurl, destfile = zipfile, quiet = TRUE)
+  - zipdir <- getwd()
+  - unzip(zipfile, exdir = zipdir) # files="" so extract all
+  - files <- list.files(zipdir)
   
 - package dplyr is used, consequently execute the following before executing the script
-  install.packages("dplyr")
-  library(dplyr)
+  - install.packages("dplyr")
+  - library(dplyr)
 
 - run_analysis() executes the script 
 - the result can be found in the set working directory
