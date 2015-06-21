@@ -1,7 +1,7 @@
 # getting-and-cleaning-data
 course project files
 run_analysis.R script requires the following preparation :
-- download the zipfile required for this course project 
+- download the zipfile required for this course project :
   zipfile <- tempfile()
   zipurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(url = zipurl, destfile = zipfile, quiet = TRUE)
