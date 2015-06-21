@@ -1,0 +1,48 @@
+
+Goal is to prepare a tidy data set derived from information from experiments 
+executed by a group of 30 volunteers within the age bracket of 19-48 years
+performing six activities : walking, walking_upstaits, walking_downstairs, sitting, standing, laying
+while their motion is being sensored by wearing a smartphone
+
+The final result is a subset of the initial information found in the zip file created with the result of the above described experiment
+(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+The following files are used to define the final result or serve as input to get a view on the information contained within those files :
+- features.txt : labels indicating the different measurements resulting from every activity performed by every volunteer
+- activity_labels : labels of the different activities (measurements files only contain a number)
+- train/X-train.txt : actual measurements registered for every activity performed by every volunteer
+- train/subject_train : link between volunteers and measurements registered in previous file
+- test/x_train.txt : measurements registered for every activity performed by every volunteer in test modus
+- test/subject_test : link between volunteers and measurements registered in previous file
+- README.txt : global introduction and overview of the executed experiments and the authors of the experiments 
+- features_info.txt : explanation of the executed measurements with the applied principles
+
+The final result contains the average 
+per volunteer, per activity 
+for the mean and standard deviation for each measurement contained within the initial measurement files
+
+columns :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
